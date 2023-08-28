@@ -168,7 +168,24 @@ body {
 }
 
 @media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Adjust padding and margins for smaller screens */
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
   nav-menu {
     display: block;
   }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
