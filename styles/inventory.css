@@ -1,0 +1,170 @@
+body {
+  font-family: Arial;
+  background-image: url("/images/webImage2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.email-login,
+.password-input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-button {
+  border-radius: 10px;  
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-button:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.parts-inventory-css {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.boxes-css {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: rgb(33, 153, 232);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+  background-color: rgb(115, 65, 35);
+  transform: scale(1.1);
+}
+
+.dropdown-qty-box,
+.ticket-number,
+.part-number,
+.part-description,
+.dropdown-box {
+  text-align:  center;
+  margin-left: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+}
+
+.ticket-number-output {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  font-family: fantasy;
+}
+
+.part-number-output {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  font-family: fantasy;
+}
+
+.part-description-output {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  font-family: fantasy;
+}
+
+.qty-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-family: fantasy;
+}
+
+.part-status-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-family: fantasy;
+}
+
+.js-output-text {
+  list-style: none;
+}
+
+.text-output-container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  margin-top: -1px;
+  padding: 1px;
+  align-items: center;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+  transform: scale(1.1);
+}
+
+

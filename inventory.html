@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inventory</title>
+    <link rel="stylesheet" href="styles/inventory.css">
+  </head>
+  <body>
+    <div>
+      <form class="login-page" id="loginForm">
+        <label for="email">Email:</label>
+        <input class="email-login" type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+    
+        <label for="password">Password:</label>
+        <input class="password-input" type="password" id="password" name="password" required><br>
+    
+        <button class="login-button" type="submit">Login</button>
+      </form>
+      <p id="message"></p>
+    </div>
+
+    <div id="inventorySection" class="hidden">
+      <button class="logout-button js-logout-button">Logout</button>
+
+      <p class="parts-inventory-css">Parts Inventory</p>
+
+      <div class="boxes-css">
+
+        <input type="text" class="ticket-number js-ticket-number" placeholder="Ticket Number">
+
+        <input type="text" class="part-number js-part-number" placeholder="Part Number">
+
+        <input type="text" class="part-description js-part-description" placeholder="Part Description">
+
+        <select type="text" class="dropdown-qty-box js-part-qty-input" id="myDropdown2">
+          <option value="Qty: 1">1</option>
+          <option value="Qty: 2">2</option>
+          <option value="Qty: 3">3</option>
+          <option value="Qty: 4">4</option>
+          <option value="Qty: 5">5</option>
+          <option value="Qty: 6">6</option>
+          <option value="Qty: 7">7</option>
+          <option value="Qty: 8">8</option>
+          <option value="Qty: 9">9</option>
+          <option value="Qty: 10">10</option>
+          <option value="Qty: 11">11</option>
+          <option value="Qty: 12">12</option>
+        </select>
+
+        <select type="text" class="dropdown-box js-part-status-input" id="myDropdown">
+          <option value="Good">Good</option>
+          <option value="Bad">Bad</option>
+          <option value="Return for repairs">Return for repairs</option>
+        </select>
+      </div>
+
+      <div class="button-container">
+        <button class="submit-button js-submit-button">Submit</button>
+      </div>
+
+      <div class="output-container">
+        <p class="output-text js-output-text"></p>
+      </div>
+    </div>
+
+    <script src="scripts/login-page.js"></script>
+    <script src="scripts/inventory.js"></script>
+
+  </body>
+
+
+</html>
